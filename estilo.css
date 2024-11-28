@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+background: linear-gradient(rgb(101, 101, 211),rgb(221, 116, 116)
+);
+margin: 40px;
+
+}
+h1 {
+
+    text-align: center;
+    background: -o-linear-gradient( 
+        rgb(13, 230, 31)
+    );
+}
+
+.perfil {
+    max-width: 50px;
+border: 2px solid orange;
+border-radius:  70px;
+box-shadow:  15px 5px 5px rgb(12, 12, 12) ;
+}
+
+h2 {
+    color: brown;
+}
+h3 {
+    color: rgb(10, 212, 101);
+}
+
+input[type="tex"], input[type="email"] 
+{
+    min-width: 100%;
+    min-height: 30px;
+margin-bottom: 5px;
+border-radius: 50px;
+border: 2px rgb(64, 235, 13) solid;
+
+}
+
+input[type="tex"]:hover, input[type="nombre"]:hover {
+border: 2px rgb(206, 13, 141) solid;
+box-shadow: 5px 5px 10px rgb(114, 106, 106);
+
+
+} 
+a:hover{
+text-shadow: 5px 5px 10px;
+color: green;
+}
+
+.button { background-color: #84d187; color: white; padding: 15px
+    32px; text-align: center; text-decoration: none; display: inlineblock; font-size: 16px; margin: 4px 2px; cursor: pointer; }
+
+
+ 
+.button:hover{
+    border: bisque ;
+    border-radius: 5px 5px 5px red;
+font-size: 20px;
+
+color: rgb(214, 71, 15);
+}
+
+table { border-collapse: collapse; width: 100%; } td, th { border:
+    1px solid rgb(0, 198, 248); text-align: left; padding: 10px; }
